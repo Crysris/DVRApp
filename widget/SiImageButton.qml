@@ -23,9 +23,7 @@ SiMouseArea {
             }
         }
     }
-}
-//import QtQuick.Controls 1.4
-//import QtQuick.Controls.Styles 1.4
+} //import QtQuick.Controls 1.4//import QtQuick.Controls.Styles 1.4
 //Button {
 //	id:baseBtn
 //	property string fcolor:"white"

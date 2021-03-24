@@ -1,5 +1,7 @@
 import QtQuick 2.0
 
-Item {
+import "IconPath.js" as IconPath
 
+Rectangle {
+    color: "gray"
 }
