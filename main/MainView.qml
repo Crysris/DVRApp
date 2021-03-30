@@ -2,6 +2,7 @@
 import QtQuick 2.0
 import "IconPath.js" as IconPath
 
+
 Rectangle {
     //color: "#262626"
     state: "video_status"

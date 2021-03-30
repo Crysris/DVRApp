@@ -1,4 +1,4 @@
-var RES_ROOT_PATH="file:/work/DVR/DVRApp/res/icon/"
+var RES_ROOT_PATH="file://work/DVRApp/DVRApp/res/icon/"
 
 // level 1 menu
 var menu_1_video=RES_ROOT_PATH+ "nor_dvr_video_icon_selected.png"
@@ -19,3 +19,5 @@ var menu_2_camare_selected=RES_ROOT_PATH+"nor_dvr_camera_icon_selected.png"
 var menu_3_recording_normal=RES_ROOT_PATH+"nor_dvr_ recording_icon_normal.png"
 var menu_3_memory_normal=RES_ROOT_PATH+"nor_dvr_ memory_icon_normal.png"
 
+
+var set_componet_slider_normal=RES_ROOT_PATH+"slider_normal.png"

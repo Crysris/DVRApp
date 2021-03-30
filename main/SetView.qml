@@ -2,23 +2,24 @@ import QtQuick 2.0
 import QtQuick.Controls 1.4
 import QtQuick.Controls.Styles 1.4
 
-Rectangle {
-    width: 550
-    height: 550
-    Button {
-        id: replay_normalVideoBtn
+
+
+Item {
+    state:"no_format_status"
+    Loader{
+        id:set_component_loader
         anchors.left: parent.left
+        anchors.top:parent.top
+        anchors.bottom: parent.bottoml
+        width: 436
+        source: "SetComponent.qml"
+    }
+    Loader{
+        id:display_video_loader
+        anchors.top:parent.top
+        anchors.left:set_component_loader.right
         anchors.bottom: parent.bottom
-        anchors.leftMargin: 14
-        anchors.bottomMargin: 13
-        Rectangle {
-            width: 220
-            height: 86
-            Text {
-                text: "普通视频"
-                font.pixelSize: 28
-                color: "#FFFFFF"
-            }
-        }
+        width: 1936
+        source: 'DisplayComponent.qml'
     }
 }

@@ -38,9 +38,7 @@ DISTFILES += \
     res/icon/nor_dvr_down_icon.png \
     res/icon/nor_dvr_emergencyvideo_icon_normal.png \
     res/icon/nor_dvr_emergencyvideo_icon_selected.png \
-    res/icon/nor_dvr_fastreverse_button_normal.png \
     res/icon/nor_dvr_mask1.png \
-    res/icon/nor_dvr_mask4.png \
     res/icon/nor_dvr_ mask2.png \
     res/icon/nor_dvr_ mask3.png \
     res/icon/nor_dvr_ mask5.png \
@@ -56,4 +54,31 @@ DISTFILES += \
     res/icon/nor_dvr_start_icon_selected.png \
     res/icon/nor_dvr_up_icon.png \
     res/icon/nor_dvr_video_icon_selected.png \
-    res/icon/slider_normal.png
+    res/icon/slider_normal.png \
+    res/icon/bg_progress_linear.png \
+    res/icon/nor_dvr_camera_icon_normal.png \
+    res/icon/nor_dvr_camera_icon_selected.png \
+    res/icon/nor_dvr_completed_icon.png \
+    res/icon/nor_dvr_down_icon.png \
+    res/icon/nor_dvr_emergencyvideo_icon_normal.png \
+    res/icon/nor_dvr_emergencyvideo_icon_selected.png \
+    res/icon/nor_dvr_fastreverse_button_normal.png \
+    res/icon/nor_dvr_mask1.png \
+    res/icon/nor_dvr_mask4.png \
+    res/icon/nor_dvr_ mask2.png \
+    res/icon/nor_dvr_ mask3.png \
+    res/icon/nor_dvr_ mask5.png \
+    res/icon/nor_dvr_nest_button_normal.png \
+    res/icon/nor_dvr_ photo_icon_normal.png \
+    res/icon/nor_dvr_playblack_icon_normal.png \
+    res/icon/nor_dvr_previous_button_normal.png \
+    res/icon/nor_dvr_ recording_icon_normal.png \
+    res/icon/nor_dvr_set_icon_normal.png \
+    res/icon/nor_dvr_start_button_normal.png \
+    res/icon/nor_dvr_start_icon_normal.png \
+    res/icon/nor_dvr_start_icon_selected.png \
+    res/icon/nor_dvr_up_icon.png \
+    res/icon/nor_dvr_video_icon_selected.png \
+    res/icon/slider_normal.png \
+    res/icon/nor_dvr_ memory_icon_normal.png \
+    res/icon/nor_dvr_ memory_icon_normal.png

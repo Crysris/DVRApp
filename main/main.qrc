@@ -1,9 +1,15 @@
 <RCC>
     <qresource prefix="/">
         <file>IconPath.js</file>
-        <file>Menu1View.qml</file>
         <file>ReplayView.qml</file>
         <file>SetView.qml</file>
         <file>RecordView.qml</file>
+        <file>DisplayComponent.qml</file>
+        <file>RecordComponent.qml</file>
+        <file>MainView.qml</file>
+        <file>SetComponent.qml</file>
+        <file>PhotoView.qml</file>
+        <file>MyFunction.js</file>
+        <file>FormatComponent.qml</file>
     </qresource>
 </RCC>
