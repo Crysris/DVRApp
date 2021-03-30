@@ -1,4 +1,4 @@
-var RES_ROOT_PATH="file:/work/DVR/DVRApp/res/"
+var RES_ROOT_PATH="file:/work/DVR/DVRApp/res/icon/"
 
 // level 1 menu
 var menu_1_video=RES_ROOT_PATH+ "nor_dvr_video_icon_selected.png"
