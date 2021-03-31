@@ -27,20 +27,22 @@ Rectangle{
     }
     SiMouseArea{
         id:cfBtn
-        height:47
-        width: 106.4
+        height:128
+        width: 648
         anchors.bottom:parent.bottom
         anchors.left:parent.left
-        anchors.leftMargin: 269.8
-        anchors.bottomMargin: 40
         Text{
             text:"确定"
+            anchors.bottom:parent.bottom
+            anchors.left:parent.left
+            anchors.leftMargin: 269.8
+            anchors.bottomMargin: 40
             color: "#E5B586"
             font.pixelSize: 36
             font.family: "GMSUIBuickGlobal-Regular"
         }
         onClicked: {
-            fmwRec.parent.state="normal"
+            fmwRec.parent.state="normal_status"
         }
     }
     Rectangle{
@@ -54,20 +56,22 @@ Rectangle{
     }
     SiMouseArea{
         id:ccBtn
-        height:54
-        width: 106.4
+        height:128
+        width: 650
         anchors.bottom:parent.bottom
         anchors.right:parent.right
-        anchors.bottomMargin: 37
-        anchors.rightMargin: 272.8
         Text{
             text:"取消"
+            anchors.bottom:parent.bottom
+            anchors.right:parent.right
+            anchors.bottomMargin: 37
+            anchors.rightMargin: 272.8
             color: "#FFFFFF"
             font.pixelSize: 36
             font.family: "GMSUIBuickGlobal-Regular"
         }
         onClicked: {
-            fmwRec.parent.state="normal"
+            fmwRec.parent.state="normal_status"
         }
     }
 }

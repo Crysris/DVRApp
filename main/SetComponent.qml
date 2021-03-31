@@ -271,7 +271,7 @@ Rectangle {
                 font.pixelSize: 42
             }
             onClicked: {
-                scpRec.state="formatting_status"
+                scpRec.parent.state="formatting_status"
             }
         }
     }

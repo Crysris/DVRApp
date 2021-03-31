@@ -5,10 +5,10 @@ import QtQuick.Controls.Styles 1.4
 
 
 Item {
-    state:scnView.state
+    id:root
+    //state:scnView.state
     SetComponent{
         id:scnView
-        state: fcnView.state
         anchors.left: parent.left
         anchors.top:parent.top
         anchors.bottom: parent.bottoml
@@ -25,7 +25,6 @@ Item {
     }
     FormatComponent{
         id:fcnView
-        state:scnView.state
         width: 1300
         height: 378
         anchors.left:scnView.right
@@ -33,9 +32,6 @@ Item {
         anchors.leftMargin: 99
         anchors.topMargin: 249
         visible: false
-    }
-    onStateChanged: {
-        console.log("setview:",scnView.state);
     }
     states:[
         State{

@@ -7,3 +7,11 @@ function timeArray(maxNum) {
     }
     return ta
 }
+
+
+function currentDate(){
+    return Qt.formatDateTime(new Date(), "yyyy-MM-dd")
+}
+function currentTime(){
+    return Qt.formatDateTime(new Date(), "hh:mm:ss")
+}

@@ -49,7 +49,7 @@ Window {
             visible: false
         }
         onStateChanged: {
-            console.log("main:",root.state);
+            //console.log("main:",root.state);
         }
         states: [
             State {
