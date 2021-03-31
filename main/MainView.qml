@@ -6,6 +6,7 @@ import "IconPath.js" as IconPath
 Rectangle {
     //color: "#262626"
     state: "video_status"
+//    state: "set_status"
     SiImageButton {
         id: videoBtn
         anchors.top: parent.top

@@ -5,6 +5,7 @@ import QtQuick.Controls.Styles 1.4
 
 
 Item {
+    property var s_state:"normal_status"
     state:scnView.state
     SetComponent{
         id:scnView

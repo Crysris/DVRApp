@@ -48,6 +48,9 @@ Window {
             anchors.bottom: parent.bottom
             visible: false
         }
+        onStateChanged: {
+            console.log("main:",root.state);
+        }
         states: [
             State {
                 name: "video_status"

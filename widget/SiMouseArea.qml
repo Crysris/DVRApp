@@ -31,7 +31,7 @@ MultiPointTouchArea{
 	}
 
 	onClicked: {
-		if(!beepClose)
-			gAvmMainViewInst.onclickBtnBeep(1);
+        if(!beepClose)
+            gAvmMainViewInst.onclickBtnBeep(1);
 	}
 }
