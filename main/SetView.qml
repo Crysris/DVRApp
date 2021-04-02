@@ -6,12 +6,12 @@ import QtQuick.Controls.Styles 1.4
 
 Item {
     id:root
-    //state:scnView.state
+    state:scnView.state
     SetComponent{
         id:scnView
         anchors.left: parent.left
         anchors.top:parent.top
-        anchors.bottom: parent.bottoml
+        anchors.bottom: parent.bottom
         width: 436
         visible: true
     }
@@ -33,6 +33,7 @@ Item {
         anchors.topMargin: 249
         visible: false
     }
+
     states:[
         State{
             name:"normal_status"

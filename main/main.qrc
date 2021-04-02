@@ -11,5 +11,6 @@
         <file>PhotoView.qml</file>
         <file>MyFunction.js</file>
         <file>FormatComponent.qml</file>
+        <file>ScrollBar.qml</file>
     </qresource>
 </RCC>

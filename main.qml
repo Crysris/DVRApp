@@ -2,16 +2,11 @@ import QtQuick 2.0
 import QtQuick.Window 2.0
 import QtQuick.Controls 1.4
 
-
-
-
 Window {
     visible: true
     width: 2622
     height: 814
     title: qsTr("Hello World")
-
-
     Item {
         id: root
         anchors.fill: parent

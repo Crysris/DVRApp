@@ -81,4 +81,88 @@ DISTFILES += \
     res/icon/nor_dvr_video_icon_selected.png \
     res/icon/slider_normal.png \
     res/icon/nor_dvr_ memory_icon_normal.png \
-    res/icon/nor_dvr_ memory_icon_normal.png
+    res/icon/nor_dvr_ memory_icon_normal.png \
+    res/video/normal/Nor_DVR_2-11格式化提醒 (copy).png \
+    res/video/normal/Nor_DVR_2-11格式化提醒 (another copy).png \
+    res/video/normal/Nor_DVR_2-11格式化提醒 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-11格式化提醒.png \
+    res/video/normal/Nor_DVR_2-10设置 (copy).png \
+    res/video/normal/Nor_DVR_2-10设置 (another copy).png \
+    res/video/normal/Nor_DVR_2-10设置 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-10设置.png \
+    res/video/normal/Nor_DVR_2-9查看图片 (copy).png \
+    res/video/normal/Nor_DVR_2-9查看图片 (another copy).png \
+    res/video/normal/Nor_DVR_2-9查看图片 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-9查看图片.png \
+    res/video/normal/Nor_DVR_2-8图片预览 (copy).png \
+    res/video/normal/Nor_DVR_2-8图片预览 (another copy).png \
+    res/video/normal/Nor_DVR_2-8图片预览 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-8图片预览.png \
+    res/video/normal/Nor_DVR_2-7播放视频 (copy).png \
+    res/video/normal/Nor_DVR_2-7播放视频 (another copy).png \
+    res/video/normal/Nor_DVR_2-7播放视频 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-7播放视频.png \
+    res/video/normal/Nor_DVR_2-6回放泊车视频 (copy).png \
+    res/video/normal/Nor_DVR_2-6回放泊车视频 (another copy).png \
+    res/video/normal/Nor_DVR_2-6回放泊车视频 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-6回放泊车视频.png \
+    res/video/normal/Nor_DVR_2-6-2泊车视频选择 (copy).png \
+    res/video/normal/Nor_DVR_2-6-2泊车视频选择 (another copy).png \
+    res/video/normal/Nor_DVR_2-6-2泊车视频选择 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-6-2泊车视频选择.png \
+    res/video/normal/Nor_DVR_2-5回放紧急视频 (copy).png \
+    res/video/normal/Nor_DVR_2-5回放紧急视频 (another copy).png \
+    res/video/normal/Nor_DVR_2-5回放紧急视频 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-5回放紧急视频.png \
+    res/video/normal/Nor_DVR_2-4回放普通视频 (copy).png \
+    res/video/normal/Nor_DVR_2-4回放普通视频 (another copy).png \
+    res/video/normal/Nor_DVR_2-4回放普通视频 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-4回放普通视频.png \
+    res/video/normal/Nor_DVR_2-3拍照 (copy).png \
+    res/video/normal/Nor_DVR_2-3拍照 (another copy).png \
+    res/video/normal/Nor_DVR_2-3拍照 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-3拍照.png \
+    res/video/normal/Nor_DVR_2-2紧急录制 (copy).png \
+    res/video/normal/Nor_DVR_2-2紧急录制 (another copy).png \
+    res/video/normal/Nor_DVR_2-2紧急录制 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-2紧急录制.png \
+    res/video/normal/Nor_DVR_2-1 (copy).png \
+    res/video/normal/Nor_DVR_2-1 (another copy).png \
+    res/video/normal/Nor_DVR_2-1 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-1.png \
+    res/video/normal/Nor_DVR_2-11格式化提醒 (copy).png \
+    res/video/normal/Nor_DVR_2-11格式化提醒 (another copy).png \
+    res/video/normal/Nor_DVR_2-11格式化提醒 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-10设置 (copy).png \
+    res/video/normal/Nor_DVR_2-10设置 (another copy).png \
+    res/video/normal/Nor_DVR_2-10设置 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-9查看图片 (copy).png \
+    res/video/normal/Nor_DVR_2-9查看图片 (another copy).png \
+    res/video/normal/Nor_DVR_2-9查看图片 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-8图片预览 (copy).png \
+    res/video/normal/Nor_DVR_2-8图片预览 (another copy).png \
+    res/video/normal/Nor_DVR_2-8图片预览 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-7播放视频 (copy).png \
+    res/video/normal/Nor_DVR_2-7播放视频 (another copy).png \
+    res/video/normal/Nor_DVR_2-7播放视频 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-6回放泊车视频 (copy).png \
+    res/video/normal/Nor_DVR_2-6回放泊车视频 (another copy).png \
+    res/video/normal/Nor_DVR_2-6回放泊车视频 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-6-2泊车视频选择 (copy).png \
+    res/video/normal/Nor_DVR_2-6-2泊车视频选择 (another copy).png \
+    res/video/normal/Nor_DVR_2-6-2泊车视频选择 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-5回放紧急视频 (copy).png \
+    res/video/normal/Nor_DVR_2-5回放紧急视频 (another copy).png \
+    res/video/normal/Nor_DVR_2-5回放紧急视频 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-4回放普通视频 (copy).png \
+    res/video/normal/Nor_DVR_2-4回放普通视频 (another copy).png \
+    res/video/normal/Nor_DVR_2-4回放普通视频 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-3拍照 (copy).png \
+    res/video/normal/Nor_DVR_2-3拍照 (another copy).png \
+    res/video/normal/Nor_DVR_2-3拍照 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-2紧急录制 (copy).png \
+    res/video/normal/Nor_DVR_2-2紧急录制 (another copy).png \
+    res/video/normal/Nor_DVR_2-2紧急录制 (3rd copy).png \
+    res/video/normal/Nor_DVR_2-1 (copy).png \
+    res/video/normal/Nor_DVR_2-1 (another copy).png \
+    res/video/normal/Nor_DVR_2-1 (3rd copy).png

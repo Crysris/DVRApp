@@ -204,8 +204,6 @@ Rectangle {
             anchors.horizontalCenter: frontFogLampTex.horizontalCenter
             anchors.top:frontFogLampTex.bottom
         }
-
-
         //定时器 VIN号：1234562
         Timer{
             id: timer

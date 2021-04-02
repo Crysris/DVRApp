@@ -4,11 +4,11 @@ import QtQuick.Controls.Styles 1.4
 
 Item {
     Rectangle {
-        id: replay_textView_rec
+        id: rcRec
         anchors.left: parent.left
-        anchors.top:parent.topr
+        anchors.top:parent.top
         height:119
-        width: 2372
+        anchors.right: parent.right
         SiMouseArea{
             id:coBtn
             anchors.top:parent.top
@@ -36,27 +36,68 @@ Item {
                 color: "#E5B586"
                 font.pixelSize: 36
                 font.family: "GMSUIBuickGlobalCond-Regular"
-
             }
         }
     }
     Rectangle{
-        id:replay_videoView_rec
-        //color:"gray"
-        anchors.top:replay_textView_rec.bottom
+        id:rvRec
+        color: "#262626"
+        anchors.top:rcRec.bottom
         anchors.left: parent.left
-        width: 2372
-        height: 552
-
-
+        anchors.right: parent.right
+        anchors.bottom: parent.bottom
+        ListView {
+            id: listView
+            anchors.fill: parent
+            model: 150
+            delegate: Rectangle {
+                height: 30
+                width: parent.width
+                border.color: "#AAAAAA"
+                border.width: 1
+                Text {
+                    font.family: "microsoft yahei"
+                    font.pixelSize: 15
+                    anchors.centerIn: parent
+                    //text:name+": "+number
+                }
+            }
+            ScrollBar {
+                target: listView
+            }
+        }
+        /*states: [
+            State {
+                id: downRefresh
+                name: "downRefresh"; when: (listView.contentHeight > 0) && (listView.contentY > (listView.contentHeight - root.height + nPullHeight))
+                StateChangeScript {
+                    name: "funDownRefresh"
+                    script: funDownRefresh() }
+            },
+            State {
+                id: upRefresh
+                name: "upRefresh"; when: (listView.contentY < -nPullHeight)
+                StateChangeScript {
+                    name: "funUpRefresh"
+                    script: funUpRefresh()
+                }
+            }
+        ]*/
+        Rectangle{
+            id:"noDisplayRec"
+            anchors.left: parent.left
+            anchors.bottom:parent.bottom
+            width:1167
+            height: 143
+            visible: false
+        }
     }
     Rectangle{
-        id:replay_optionView_rec
+        id:roRec
         anchors.left: parent.left
-        anchors.top:replay_videoView_rec.bottom
-        width: 2372
+        anchors.bottom:parent.bottom
+        width:1167
         height: 143
-        state:"rnv_status"
         Rectangle{
             id:rnvRec
             width: 220
@@ -81,7 +122,10 @@ Item {
                     color: "#E5B586"
                 }
                 onClicked:{
-                    parent.parent.state = "rnv_status"
+                    rnvRec.color="#1F1B33"
+                    revRec.color=rpRec.color=rpvRec.color="#474B63"
+                    rnvTxt.color="#E5B586"
+                    revTxt.color=rpTxt.color=rpvTxt.color="#FFFFFF"
                 }
             }
         }
@@ -108,7 +152,10 @@ Item {
                     color: "#FFFFFF"
                 }
                 onClicked:{
-                    parent.parent.state = "rev_status"
+                    revRec.color="#1F1B33"
+                    rnvRec.color=rpRec.color=rpvRec.color="#474B63"
+                    revTxt.color="#E5B586"
+                    rnvTxt.color=rpTxt.color=rpvTxt.color="#FFFFFF"
                 }
             }
         }
@@ -135,7 +182,10 @@ Item {
                     color: "#FFFFFF"
                 }
                 onClicked:{
-                    parent.parent.state = "rpv_status"
+                    rpvRec.color="#1F1B33"
+                    rnvRec.color=rpRec.color=revRec.color="#474B63"
+                    rpvTxt.color="#E5B586"
+                    rnvTxt.color=rpTxt.color=revTxt.color="#FFFFFF"
                 }
             }
         }
@@ -162,57 +212,12 @@ Item {
                     color: "#FFFFFF"
                 }
                 onClicked:{
-                    parent.parent.state = "rv_status"
+                    rpRec.color="#1F1B33"
+                    rnvRec.color=revRec.color=rpvRec.color="#474B63"
+                    rpTxt.color="#E5B586"
+                    rnvTxt.color=revTxt.color=rpvTxt.color="#FFFFFF"
                 }
             }
         }
-        states:[
-            State {
-                name:"rnv_status"
-                PropertyChanges {target: rnvRec;color:"#1F1B33" }
-                PropertyChanges {target: rnvTxt;color:"#E5B586"}
-                PropertyChanges {target: revRec;color: "#474B63"}
-                PropertyChanges {target: revTxt;color:"#FFFFFF"}
-                PropertyChanges {target: rpvRec;color: "#474B63"}
-                PropertyChanges {target: rpvTxt;color:"#FFFFFF"}
-                PropertyChanges {target: rpRec;color: "#474B63"}
-                PropertyChanges {target: rpTxt;color:"#FFFFFF"}
-            },
-            State {
-                name:"rev_status"
-                PropertyChanges {target: rnvRec;color:"#474B63" }
-                PropertyChanges {target: rnvTxt;color:"#FFFFFF"}
-                PropertyChanges {target: revRec;color: "#1F1B33"}
-                PropertyChanges {target: revTxt;color:"#E5B586"}
-                PropertyChanges {target: rpvRec;color: "#474B63"}
-                PropertyChanges {target: rpvTxt;color:"#FFFFFF"}
-                PropertyChanges {target: rpRec;color: "#474B63"}
-                PropertyChanges {target: rpTxt;color:"#FFFFFF"}
-            },
-            State {
-                name:"rpv_status"
-                PropertyChanges {target: rnvRec;color:"#474B63" }
-                PropertyChanges {target: rnvTxt;color:"#FFFFFF"}
-                PropertyChanges {target: revRec;color: "#474B63"}
-                PropertyChanges {target: revTxt;color:"#FFFFFF"}
-                PropertyChanges {target: rpvRec;color: "#1F1B33"}
-                PropertyChanges {target: rpvTxt;color:"#E5B586"}
-                PropertyChanges {target: rpRec;color: "#474B63"}
-                PropertyChanges {target: rpTxt;color:"#FFFFFF"}
-            },
-            State {
-                name:"rv_status"
-                PropertyChanges {target: rnvRec;color:"#474B63"  }
-                PropertyChanges {target: rnvTxt;color:"#FFFFFF"}
-                PropertyChanges {target: revRec;color: "#474B63"}
-                PropertyChanges {target: revTxt;color:"#FFFFFF"}
-                PropertyChanges {target: rpvRec;color: "#474B63"}
-                PropertyChanges {target: rpvTxt;color:"#FFFFFF"}
-                PropertyChanges {target: rpRec;color:"#1F1B33"}
-                PropertyChanges {target: rpTxt;color:"#E5B586"}
-            }
-
-        ]
     }
 }
-

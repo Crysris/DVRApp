@@ -15,3 +15,11 @@ function currentDate(){
 function currentTime(){
     return Qt.formatDateTime(new Date(), "hh:mm:ss")
 }
+
+function readImages(videoType){
+    var path="file:/l/work/DVRApp/DVRApp/res/video/"+videoType
+}
+
+
+
+
